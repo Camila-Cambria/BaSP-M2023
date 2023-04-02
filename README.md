@@ -1,18 +1,18 @@
-#Become a Software Professional 2023
+# Become a Software Professional 2023
 
-##Week 01
+## Week 01
 
-We worked on the first problem.
-We made a screenflow.
-We use figma.
+We're presented with the new project where we must create the page of a gym.
+We use figma to make the different screenflow of the page.
+We work on coaches' screens.
+We learned to use figma, git and github.
 
-##Week 02
+## Week 02
 
-We made the second problem.
-We created our first HTML document.
-We transcribe the content of the screenflow landing.
+We work on the second problem, creating our first HTML document.
+In this file we transcribe the sreenflow content of the landing with desktop view.
 We use HTML and upload everything to GITHUB.
 
 
-##Authors 
+## Authors 
 -Camila Cambria
