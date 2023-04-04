@@ -6,38 +6,48 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The best gym</title>
+        <link rel="stylesheets" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+
     </head>
     <body>
     <header> 
-        <img src="/Assets/Images/img01.png" alt="Radium Rocket Logo">
-        <h1>the best gym</h1>
-        <p>mega rocket s.a</p>
+        <div class="title">
+            <h1>the best gym</h1>
+            <p>mega rocket s.a</p>
+        </div>
+            <img class="logo-rr" src="/Assets/Images/img01.png" alt="Radium Rocket Logo">
     </header>
-    <aside>
+    <aside class="a-nav">
     <nav>
-        <ul>
+        <ul class="menu">
             <li><a href="#"><h2>home</h2></a></li>
-            <li><a href="#"><h2>log in</h2></a></li>
-            <li><a href="#"><h2>sign up</h2></a></li> 
-        </ul> 
-        <h3>contact</h3>
-        <ul>
-           <li>+54321656578</li>
-           <li><a href="#">megarocket@info.com</a></li>
-           <li>Calle Mega Rocket SA, nº 124.</li>
-           <li>Rosario, Santa Fe, Argentina, CP: 2000.</li>
+            <li><a href="#"><h2>log-in</h2></a></li>
+            <li><a href="#"><h2>sign-up</h2></a></li> 
         </ul>
+        <h3 class="a-contact">contact</h3>
+        <p class="contact">    
+            <a href="#">megarocket@info.com</a>
+            +54321656578
+            <br>
+            Calle Mega Rocket SA
+            <br>
+            nº 124.
+            Rosario, Santa Fe Argentina 
+            <br>
+             CP: 2000.
+        </p>
     </nav>   
     </aside>
     <main>
-    <section>
+    <section class="commitment">
         <h2>our philosophy & commitment</h2>
         <p>
             We are a gym that is based on well being, and care for each other. 
             We are a community of people focused on being better in all aspects of life, including physical health.
         </p>
     </section>
-    <section>
+    <section class="why-us">
         <h2>why mega rocket?</h2>
         <p>
             We have 324 spaces all around the world designed just for YOU to be better.
@@ -45,35 +55,38 @@
         </p>
         <img src="/Assets/Images/img03.png" alt="People performing weighted squats">
     </section>
-    <section>
+    <section class="activities">
         <h2>join our activities!</h2>
-        <article>
-            <img src="/Assets/Images/img04.png" alt="Person doing crossfit">
+        <div class="crossfit">
+        <!--<img src="/Assets/Images/img04.png" alt="Person doing crossfit"> -->
             <h3>crossfit</h3>
             <p>Equipment granted, lift, build muscle, and gain strength.</p>
-        </article>
-        <article>
-            <img src="/Assets/Images/img05.png" alt="Person doing spinning">
+        </div>
+        <div class="spinning">
+        <!--<img src="/Assets/Images/img05.png" alt="Person doing spinning">-->
             <h3>spinning</h3>
-            <p>Bike all around the world, with the best music, and teachers.</p>
-        </article>
-        <article>
-            <img src="/Assets/Images/img06.png" alt="Person doing weight">
-            <h3>functional</h3>
+            <p>Bike all around the world, with the best music, and teachers.</p>-->
+        </div>
+        <div class="functional">
+        <!--<img src="/Assets/Images/img06.png" alt="Person doing weight">-->
+                 <h3>functional</h3>
             <p>Build muscle and agility.</p>
-        </article>
-        <article>
-            <img src="/Assets/Images/img07.png" alt="Person practicing with boxing bag">
+        </div>
+        <div class="boxing">
+        <!--<img src="/Assets/Images/img07.png" alt="Person practicing with boxing bag">-->
             <h3>boxing</h3>
             <p>Best techniques, equipment, and levels.</p>
-        </article>
-        <article>
-            <img src="/Assets/Images/img08.png" alt="Person lifting weight">
+        </div>
+        <div class="weightt">
+        <!--<img src="/Assets/Images/img08.png" alt="Person lifting weight">-->
             <h3>weight training</h3>
             <p>Lift up, we have every weigth you will need.</p>
-        </article>    
+        </div>   
+        </div> 
     </section>
-    <section>
+
+
+    <section class="Memberships">
         <h2>mega rocket membership</h2>
         <article>
             <img src="/Assets/Images/img09.png" alt="Child lifting weights">
@@ -109,14 +122,14 @@
             <a href="#"><p>go all-in!</p></a>
         </article>
     </section>
-    <section>
+    <section class="universe mega rocket">
         <article>
             <h3>universe mega rocket!</h3>
             <h4>reservation</h4>
             <img src="/Assets/Images/img12.png" alt="Form">
             <p>Here you can tap and make sure to have a place on your favourite class!</p>
         </article>
-        <article>
+<!--    <article>
             <h3>universe mega rocket!</h3>
             <h4>membership</h4>
             <img src="/Assets/Images/img13.png" alt="Membership">
@@ -134,8 +147,9 @@
             <img src="/Assets/Images/img15.jpg" alt="Drawing interacting">
             <p>If you have any questions, want more info, or have a suggestion, please tap here!</p>
         </article>
+-->    
     </section>
-    <section> 
+    <section class="'contact with us'form"> 
         <h3>got any questions?</h3>
         <form>           
             <input type="radio" name="option"> 

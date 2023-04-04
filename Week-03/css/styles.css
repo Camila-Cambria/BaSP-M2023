@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family:´Roboto´, sans-serif;
+    font-style: normal;
+    background-color: #E6E6Ec;
+}
+header {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 1512px;
+    height: 120px;
+}
+aside {
+    float: left;
+    width: 271px;
+    height: 5800px;
+}
+nav {
+    position: fixed;
+    display: inline-block;
+    width: 271px;
+    height: 5800px;
+    top: 120px;
+    left: 0px;
+    background-color: #373867;
+}
+li {
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 80px;
+    height: 40px;
+    color: #E6E6EC;
+    list-style: none;
+}
+a {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+}
+h1,h2 {
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 47px;
+}
+.logo-rr{
+    width: 90.72px;
+    height: 115px;
+    top: 42px;
+    left: 46px;
+}
+.title{
+    width: 300px;
+    margin-left: 650px;
+    position:absolute;
+}
+.title h1 {
+    width: 294px;
+    height: 47px;
+    left: 629px;
+    top: 69px;
+    color: #373867;
+}
+.menu {
+    width: 66px;
+    height: 27px;
+    top: 200px;
+    left: 100;
+    font-weight: 800;
+    line-height: 10px;
+    text-align: center;
+    font-size: 23px;
+    color: #FFFFFF;
+}
