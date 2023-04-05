@@ -34,6 +34,7 @@ footer {
     left: 0%;
     width: 1512px;
     height: 139px;
+    margin-left: 687px;
     margin-bottom: -5275px;
     background-color: #E6E6EC;
 }
@@ -717,6 +718,10 @@ h1,h2 {
     line-height: 15px;
     color:#373867;
     background-color: #AACE9B;
+}
+.logos {
+margin-top: 10px;
+
 }
 .footer p {
     position: absolute;
