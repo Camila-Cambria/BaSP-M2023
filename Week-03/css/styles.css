@@ -275,6 +275,137 @@ h1,h2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.memberships {
+    position: absolute;
+    display: inline-block;
+    width: 700px;
+    height: 112px;
+    margin-top: 3270px;
+    left: 268px;
+    background-color: #373867;
+}
+.memberships h2 {
+    width: 700px;
+    height: 112px;
+    padding: 30px 30px;
+    margin-top:5px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.mem01 img{
+    margin-left: 30px;
+    float: center;
+    width: 395px;
+    height: 402px;
+    color: #FFFFFF;
+}
+.mem01 h3{
+    width: 237px;
+    height:  71px;
+    padding-left: 85px;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #373867;
+}
+.memb01 p{
+    margin-left: 500px;
+    font-weight:400px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color:#373867;
+    }
+    
+.memb-only button {
+    width: 395px;
+    height: 72px;
+    margin-top: 66px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 30.596px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #49A373;
+}
+.mem02{
+    margin-top: -778px;
+    margin-left: 400px;
+}
+.mem02 img {
+    margin-left: 30px;
+    float: center;
+    width: 395px;
+    height: 402px;
+    color: #FFFFFF;
+}
+.mem02 h3 {
+    width: 237px;
+    height:  71px;
+    padding-left: 85px;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #373867;
+}
+.memb02 p {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color:#373867;
+    }
+.memb-classic button {
+    width: 395px;
+    height: 72px;
+    margin-top: 15px;
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 30.596px;
+    color: #FFFFFF;
+    background-color: #49A373;
+}
+.mem03 {
+    margin-top: -778px;
+    margin-left: 800px;
+}
+.mem03 img {
+    margin-left: 30px;
+    float: center;
+    width: 395px;
+    height: 402px;
+    color: #FFFFFF;
+}
+.mem03 h3 {
+    width: 237px;
+    height:  71px;
+    padding-left: 85px;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #373867;
+}
+.mem03 p {
+    margin-left: 100px;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #373867;
+    }
+.memb-black button {
+        width: 410px;
+        height: 72px;
+        margin-top: 14px;
+        font-weight: 700;
+        font-size: 30.596px;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+        background-color: #49A373;
+    }
 
 
 
