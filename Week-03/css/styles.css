@@ -27,15 +27,16 @@ nav {
     display: inline-block;
     background-color: #373867;
 }
-/*footer {
+footer {
     position: absolute;
     bottom: 0%;
     width: 100%;
     left: 0%;
     width: 1512px;
     height: 139px;
+    margin-bottom: -5275px;
     background-color: #E6E6EC;
-}*/
+}
 li {
     width: 80px;
     height: 40px;
@@ -292,9 +293,13 @@ h1,h2 {
     text-align: center;
     color:#FFFFFF;
 }
-
+.mem01{
+    height: 300px;
+    width: 300px;
+    margin-left: 26px;
+}
 .mem01 img{
-    margin-left: 30px;
+    margin-left: 10px;
     float: center;
     width: 395px;
     height: 402px;
@@ -323,7 +328,7 @@ h1,h2 {
     width: 395px;
     height: 72px;
     margin-top: 66px;
-    margin-left: 20px;
+    margin-left: -5px;
     font-weight: 700;
     font-size: 30.596px;
     line-height: 36px;
@@ -331,16 +336,101 @@ h1,h2 {
     background-color: #49A373;
 }
 .mem02{
-    margin-top: -778px;
+    height: 300px;
+    width: 300px;
     margin-left: 400px;
+    margin-top: -355px;
 }
-.mem02 img {
+.mem02 img{
+    margin-left: 23px;
+    margin-top: 55px;
+    float: center;
+    width: 395px;
+    height: 402px;
+    color: #FFFFFF;
+}
+.mem02 h3{
+    width: 237px;
+    height:  71px;
+    padding-left: 85px;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #373867;
+}
+.memb02 p{
+    margin-left: 500px;
+    font-weight:400px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color:#373867;
+    }
+    
+.memb-classic button {
+    width: 395px;
+    height: 72px;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 30.596px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #49A373;
+}
+.mem03{
+    height: 300px;
+    width: 300px;
+    margin-top: -243px;
+    margin-left: 791px;
+}
+.mem03 img{
     margin-left: 30px;
     float: center;
     width: 395px;
     height: 402px;
     color: #FFFFFF;
 }
+.mem03 h3{
+    width: 237px;
+    height:  71px;
+    padding-left: 85px;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #373867;
+}
+.memb03 p {
+    margin-left: 500px;
+    font-weight:400px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color:#373867;
+    }
+.memb-black {
+    margin-top: -18px;
+    margin-left: 17px;
+}
+.memb-black button {
+    width: 395px;
+    height: 72px;
+    margin-top: -5px;
+    margin-left: 13px;
+    font-weight: 700;
+    font-size: 30.596px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #49A373;
+}
+/*
+.mem02{
+    margin-top: -778px;
+    margin-left: 400px;
+}
+
 .mem02 h3 {
     width: 237px;
     height:  71px;
@@ -370,13 +460,7 @@ h1,h2 {
 .mem03 {
     margin-top: -778px;
     margin-left: 800px;
-}
-.mem03 img {
-    margin-left: 30px;
-    float: center;
-    width: 395px;
-    height: 402px;
-    color: #FFFFFF;
+
 }
 .mem03 h3 {
     width: 237px;
@@ -406,6 +490,7 @@ h1,h2 {
     color: #FFFFFF;
     background-color: #49A373;
 }
+*/
 .universe {
     position: absolute;
     display: inline-block;
@@ -699,6 +784,16 @@ h1,h2 {
     color:#373867;
     background-color: #AACE9B;
 }
+.footer p {
+    position: absolute;
+    width: 315px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
 
     
 
