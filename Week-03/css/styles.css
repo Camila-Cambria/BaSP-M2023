@@ -7,10 +7,10 @@ body {
 }
 header {
     display: inline-block;
-    margin: 0;
-    padding: 0;
     width: 1512px;
     height: 120px;
+    margin: 0;
+    padding: 0;
 }
 aside {
     float: left;
@@ -18,44 +18,54 @@ aside {
     height: 5800px;
 }
 nav {
-    position: fixed;
+    position: relative;
+    width: 280px;
+    height: 6000px;
+    top: 129;
+    left: 0;
+    margin-left: -8px;
     display: inline-block;
-    width: 271px;
-    height: 5800px;
-    top: 120px;
-    left: 0px;
     background-color: #373867;
 }
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+    width: 1512px;
+    height: 139px;
+    background-color: #E6E6EC;
+}
 li {
-    margin-top: 50px;
-    margin-left: 60px;
     width: 80px;
     height: 40px;
-    color: #E6E6EC;
+    margin-top: 50px;
+    margin-left: 60px;
     list-style: none;
+    color: #E6E6EC;
 }
 a {
-    color: #FFFFFF;
     font-weight: 800;
     font-size: 23px;
     line-height: 27px;
     text-align: center;
+    color: #FFFFFF;
 }
 h1,h2 {
     font-weight: 700px;
     font-size: 40px;
     line-height: 47px;
 }
-.logo-rr{
+.logo-rr {
     width: 90.72px;
     height: 115px;
     top: 42px;
     left: 46px;
 }
-.title{
+.title {
     width: 300px;
     margin-left: 650px;
-    position:absolute;
+    position: absolute;
 }
 .title h1 {
     width: 294px;
@@ -75,3 +85,41 @@ h1,h2 {
     font-size: 23px;
     color: #FFFFFF;
 }
+.title p {
+    margin-top: -25px;
+    margin-left: 100px;
+    width: 126px;
+    height: 16px;
+    left: 255px;
+    top: 118px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #373867;
+}
+.a-contact {
+    margin-top: 290px;
+    margin-left: 100px;
+    width: 152px;
+    height: 32.38px;
+    left: 56.78px;
+    top: 598px;
+    font-weight: 800;
+    font-size: 23.1293px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.contact {
+    width: 244px;
+    height: 465px;
+    top: 10px;
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
