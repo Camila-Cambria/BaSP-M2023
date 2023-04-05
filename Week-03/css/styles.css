@@ -191,6 +191,91 @@ h1,h2 {
     line-height: 47px;
     position: absolute;
 }
+.activities {
+    position: absolute;
+    display: inline-block;
+    width: 700px;
+    height: 112px;
+    left: 268px;
+    top: 1509px;
+    background-color: #373867;
+}
+.activities h2 {
+    width: 700px;
+    height: 112px;
+    margin-top:0px;
+    padding: 30px 80px;
+    text-align: center;
+    color:#FFFFFF;
+}
+.activities h3 {
+    width: 400px;
+    height: 40px;
+    padding-top: 100px;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.activities p {
+    width: 461px;
+    height: 471px;
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size :40px;
+    line-height: 47px;
+    text-align: center;
+}
+.crossfit {
+    width: 461px;
+    height: 471px;
+    margin-top: 11px;
+    margin-left: 156px;
+    background-image: url(/Assets/Images/img04.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spinning {
+    width: 461px;
+    height: 471px;
+    margin-top: -512px;
+    margin-left: 617px;
+    background-image: url(/Assets/Images/img05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.functional {
+    width: 461px;
+    height: 471px;
+    margin-top: -39px;
+    margin-left: 156px;
+    text-align: center;
+    background-image: url(/Assets/Images/img06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxing {
+    width: 461px;
+    height: 471px;
+    margin-top: -510px;
+    margin-left: 617px;
+    background-image: url(/Assets/Images/img07.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.weightt {
+    width: 461px;
+    height: 471px;
+    margin-top: -40px;
+    margin-left: 156px;
+    background-image: url(/Assets/Images/img08.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
 
