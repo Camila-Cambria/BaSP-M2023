@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@media (min-width: 390px) and (max-width: 600px){
+/*mobile*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 76px;
+        width: auto;
+        background-color: #D9D9D9;
+    }
+
+    .header-logo {
+        margin-left: 20px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .logo-rr {
+        width: 57px;
+        height: 64px;
+    }
+
+    .header-title {
+        margin-top: 22px;
+        text-transform: uppercase;
+    }
+
+    .title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #373867;
+    }
+    
+    .subtitle {
+        float: right;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 11px;
+        color: #373867;
+    }
+
+    .header-burger {
+        margin-top: 31px;
+        margin-right: 14px;
+    }
+    
+    .burger {
+        width: 16px;
+        height: 14px;
+    }
+}
