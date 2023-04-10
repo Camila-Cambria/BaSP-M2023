@@ -190,13 +190,12 @@ nav {
 }
 
 .memb-box {
-    width: 325px;
-    height: auto;
-    margin-top: -22px;
-    margin-bottom: 28px;
-    margin-left: 10%;
+    position: relative;
+    width: 80%;
+    margin: -12% 10% 10% 10%;
     background-color: #FFFFFF;
-    justify-content: space-evenly;
+    border-top: 40px solid #979797;
+    border-radius: 5px;
 }
 
 .memberships h3 {
@@ -210,12 +209,25 @@ nav {
     color: #373867;
 }
 
+.memberships ul {
+    font-weight:400px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 15%;
+    list-style-type: square;
+    text-decoration: dotted;
+    color:#373867;
+}
+
+
 .memberships p {
     font-weight:400px;
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color:#373867;
+    margin-top: 10%;
+    color:#373867 40%;
 }
     
 .memberships button {
@@ -226,6 +238,58 @@ nav {
     line-height: 36px;
     color: #FFFFFF;
     background-color: #49A373;
+}
+
+
+.universe {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color: #AACE9B;
+}
+
+.universe h3 {
+    font-weight: 600px;
+    font-size: 60px;
+    line-height: 7px;
+    text-align: left;
+    margin-top: 10%;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+.universe h4 {
+    font-weight: 400px;
+    font-size: 32.8016px;
+    line-height: 38px;
+    text-align:left;
+    margin-top: 10%;
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}       
+
+.universe p {
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 20px;
+    font-size: 33px;
+    line-height: 38px;
+    color:#FFFFFF;
+    text-align: left;
+}
+.universe img {
+    width: 108px;
+    height: 104px;
+    margin-top: 16%;
+}
+
+.universe-reservation {
+    padding-left: 10%;
+
 }
 
 
