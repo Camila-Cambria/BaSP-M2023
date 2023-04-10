@@ -62,7 +62,6 @@ nav {
 }
 
 .why-us {
-    
     height: 245px;
     width: auto;
     flex-direction: column;
@@ -84,8 +83,6 @@ nav {
     display:none;
 } 
 
-
-
 .why-us h2 {
     font-weight: 700;
     font-size: 19.0413px;
@@ -101,10 +98,135 @@ nav {
 }
 
 .activities {
-    width: 318px;
-    height: 53px;
-    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color:#ECE9F1;
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.activities-logo {
+    width:  318px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding-top: 14px;
     background-color: #373867;
 }
+
+.activities-pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.activities-pics h3 {
+    text-transform: uppercase;
+}
+
+.activities-crossfit {
+    width: 269px;
+    height: 270px;
+    background-image: url(/Assets/Images/img04.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activities-spinning {
+    width: 269px;
+    height: 270px;
+    background-image: url(/Assets/Images/img05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ .activities-functional {
+    width: 269px;
+    height: 270px;
+    text-align: center;
+    background-image: url(/Assets/Images/img06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activities-boxing {
+    width: 269px;
+    height: 270px;
+    background-image: url(/Assets/Images/img07.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activities-weightt {
+    width: 269px;
+    height: 270px;
+    background-image: url(/Assets/Images/img08.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.memberships {
+    width: auto;
+    height: auto;
+    background-color:#ECE9F1;
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.memberships-logo {
+    width:  318px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding-top: 14px;
+    background-color: #373867;
+}
+
+.memb-box {
+    width: 325px;
+    height: auto;
+    margin-top: -22px;
+    margin-bottom: 28px;
+    margin-left: 10%;
+    background-color: #FFFFFF;
+    justify-content: space-evenly;
+}
+
+.memberships h3 {
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373867;
+}
+
+.memberships p {
+    font-weight:400px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color:#373867;
+}
+    
+.memberships button {
+    width: 325px;
+    height: 72px;
+    font-weight: 700;
+    font-size: 30.596px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background-color: #49A373;
+}
+
 
 }

@@ -231,7 +231,7 @@ h1,h2 {
     line-height: 47px;
     text-align: center;
 }
-.crossfit {
+.activities-crossfit {
     width: 461px;
     height: 471px;
     margin-top: 11px;
@@ -468,7 +468,6 @@ h1,h2 {
     line-height: 38px;
     color:#FFFFFF;
     text-align: left;
-    
 }
 .universe img {
     float: right;
