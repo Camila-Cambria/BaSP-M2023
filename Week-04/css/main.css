@@ -292,5 +292,72 @@ nav {
 
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    width: 80%;
+    margin: 10% 10%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 80%;
+    border-radius: 5px;
+
+}
+
+.form-title {
+    color: #373867;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.select-form {
+    display:flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 9px;
+    color: #373867;
+    border: 1px solid #373867;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.select-form label {
+    margin-left: 3px;
+
+}
+
+.ph-name, .ph-surname {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    color: #373867;
+    opacity: 0.5;
+}
+
+.ph-email {
+    display: flex;
+    border-radius: 5px;
+    color: #373867;
+    opacity: 0.5;
+}
+
+
+.ph input {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+.submit-bottom {
+    margin: 10px 0px;
+    padding: 8px 18px;
+    border-radius: 5px;
+    background-color: #AACE9B;
+    color:#373867;
+    font-size: 13px;
 
 }
