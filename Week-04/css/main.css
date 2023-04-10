@@ -121,9 +121,13 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
+.activities-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30%;
+}
 .activities-pics h3 {
     text-transform: uppercase;
 }
@@ -240,7 +244,6 @@ nav {
     background-color: #49A373;
 }
 
-
 .universe {
     display: flex;
     flex-direction: column;
@@ -256,10 +259,9 @@ nav {
     line-height: 7px;
     text-align: left;
     margin-top: 10%;
-
     text-transform: uppercase;
     color: #FFFFFF;
-    }
+}
 
 .universe h4 {
     font-weight: 400px;
@@ -267,7 +269,6 @@ nav {
     line-height: 38px;
     text-align:left;
     margin-top: 10%;
-
     text-transform: uppercase;
     color: #FFFFFF;
 }       
@@ -289,7 +290,6 @@ nav {
 
 .universe-reservation {
     padding-left: 10%;
-
 }
 
 form {
@@ -298,12 +298,10 @@ form {
     align-items: center;
     white-space: nowrap;
     width: 80%;
-    margin: 10% 10%;
+    margin: 5%;
+    margin-left: 43px;
     background-color: #FFFFFF;
     border-radius: 20px;
-    width: 80%;
-    border-radius: 5px;
-
 }
 
 .form-title {
@@ -312,26 +310,32 @@ form {
     font-size: 20px;
     line-height: 23px;
     text-align: center;
+    margin-top: 10%;
 }
 
 .select-form {
-    display:flex;
+    display: flex;
     align-items: center;
-    font-size: 15px;
+    width: 94%;
+    font-size: small;
     line-height: 9px;
     color: #373867;
     border: 1px solid #373867;
     border-radius: 5px;
-    padding: 8px;
+    padding: 4px;
+    margin-top: 9px;
     margin-bottom: 5px;
 }
 
 .select-form label {
     margin-left: 3px;
-
 }
 
-.ph-name, .ph-surname {
+.placeholders {
+    width: 96%;
+}
+
+.ph-name, ph-surname {
     display: flex;
     flex-direction: row;
     border-radius: 5px;
@@ -346,18 +350,28 @@ form {
     opacity: 0.5;
 }
 
-
 .ph input {
     width: 100%;
     margin: 10px;
     padding: 5px;
 }
+
+.opinion p {
+    width: 15px;
+}
+
+textarea {
+    width: 96%;
+    margin-left: 1%;
+}
+
 .submit-bottom {
-    margin: 10px 0px;
+    margin: 4px -5px;
     padding: 8px 18px;
     border-radius: 5px;
     background-color: #AACE9B;
     color:#373867;
     font-size: 13px;
+}
 
 }
