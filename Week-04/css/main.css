@@ -34,7 +34,7 @@ aside {
     display: flex;
     height: 245px;
     width: 100%;
-    background-image: url(/Assets/Images/img02.png);
+    background-image: url(../../Assets/Images/img02.png);
     background-size: cover;
     background-position: 30%;
 }
@@ -151,7 +151,7 @@ aside {
     width: 269px;
     height: 270px;
     text-align: center;
-    background-image: url(/Assets/Images/img06.png);
+    background-image: url(../../Assets/Images/img06.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -159,7 +159,7 @@ aside {
 .activities-boxing {
     width: 269px;
     height: 270px;
-    background-image: url(/Assets/Images/img07.png);
+    background-image: url(../../Assets/Images/img07.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -391,7 +391,6 @@ textarea {
         display: flex;
         align-items: flex-end;
     }
-    
 
     .universe {
         display: flex;
