@@ -22,8 +22,13 @@ We use HTML,GITHUB.
 
 We focused on CSS and applied styles to the HTML code we had previously corrected.
 As a result, our webpage now has a more polished and professional look.
-
 We use HTML and CSS.
+
+## Week 04
+
+We optimize the landing page for a design that works on both mobile devices and tablets and desktop computers. Based on the concept of mobile first.
+We use HTML and CSS.
+Main tool used: flexbox.
 
 ## Authors 
 -Camila Cambria
