@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@media (min-width: 390px) and (max-width: 600px){
-/*mobile*/
+
 *{
     width: 100%;
     height: auto;
@@ -11,6 +10,9 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #D9D9D9;
+    color: #373867;
+    align-items: center;
+    min-width: 390px;
 }
 
 .header-logo {
@@ -21,31 +23,24 @@ header {
 
 .logo-rr {
     width: 57px;
-    height: 64px;
+    height: 65px;
 }
 
 .header-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
     margin-top: 22px;
     white-space: nowrap;
     text-transform: uppercase;
     text-align: center;
-}
-
-.title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
     color: #373867;
 }
-    
+
 .subtitle {
-    float: right;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 9px;
+    font-weight: 700;
+    text-align: center;
     line-height: 11px;
     color: #373867;
 }
@@ -60,4 +55,28 @@ header {
     width: 16px;
     height: 14px;
 }
+
+@media (min-widht: 601px){
+    
+    .logo-rr {
+        height: 85px;
+    }
+    
+    .subtitle {
+        font-size: 14px;
+        line-height: 16px;    
+    }
 }
+
+@media (min-width: 1025px) {
+    
+    .logo-rr{
+        height:115px;
+    }
+
+    .burger{
+        display: none;
+    }
+}
+
+

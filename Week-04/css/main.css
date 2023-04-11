@@ -3,10 +3,11 @@
 *{
     width: 100%;
     height: auto;
-    margin: 0px;
+
 }
 
 aside {
+
     display: none;
     float: left;
     width: 271px;
@@ -27,7 +28,7 @@ nav {
 .us {
     display: flex;
     height: 245px;
-    width: auto;
+    width: 100%;
     background-image: url(/Assets/Images/img02.png);
     background-size: cover;
     background-position: 30%;
@@ -224,7 +225,6 @@ nav {
     color:#373867;
 }
 
-
 .memberships p {
     font-weight:400px;
     font-size: 15px;
@@ -248,9 +248,11 @@ nav {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: auto;
+    width: 100%;
     text-align: center;
     background-color: #AACE9B;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .universe h3 {
@@ -282,6 +284,7 @@ nav {
     color:#FFFFFF;
     text-align: left;
 }
+
 .universe img {
     width: 108px;
     height: 104px;
