@@ -5,6 +5,7 @@ aside {
     display: flex;
     float: left;
     width: 271px;
+    height: 100%;
 }
 
 .menu {
@@ -20,6 +21,7 @@ aside {
 
 .menu h3, li {
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 .menu h3 {
@@ -132,7 +134,7 @@ aside {
 }
 
 .activities-crossfit {
-    width: 269px;
+    width: 50%;
     height: 270px;
     background-image: url(/Assets/Images/img04.png);
     background-size: cover;
@@ -140,7 +142,7 @@ aside {
 }
 
 .activities-spinning {
-    width: 269px;
+    width: 50%;
     height: 270px;
     background-image: url(/Assets/Images/img05.png);
     background-size: cover;
@@ -148,7 +150,7 @@ aside {
 }
 
  .activities-functional {
-    width: 269px;
+    width: 50%;
     height: 270px;
     text-align: center;
     background-image: url(../../Assets/Images/img06.png);
@@ -157,7 +159,7 @@ aside {
 }
 
 .activities-boxing {
-    width: 269px;
+    width: 50%;
     height: 270px;
     background-image: url(../../Assets/Images/img07.png);
     background-size: cover;
@@ -165,7 +167,7 @@ aside {
 }
 
 .activities-weightt {
-    width: 269px;
+    width: 50%;
     height: 270px;
     background-image: url(/Assets/Images/img08.png);
     background-size: cover;
@@ -191,10 +193,6 @@ aside {
     background-color: #373867;
 }
 
-.memb-only {
-    padding-top: 5%;
-}
-
 .memb-box {
     position: relative;
     width: 80%;
@@ -202,6 +200,11 @@ aside {
     background-color: #FFFFFF;
     border-top: 40px solid #979797;
     border-radius: 5px;
+}
+
+.memberships-conteiner{
+    display: flex;
+    flex-direction: column;
 }
 
 .memberships h3 {
@@ -217,7 +220,8 @@ aside {
 
 .memberships li {
     font-weight:400px;
-    font-size: 15px;
+    font-size: 12px;
+    width: auto;
     line-height: 18px;
     text-align: left;
     margin-left: 15%;
@@ -234,7 +238,7 @@ aside {
     margin-top: 10%;
     color: #373867;
 }
-    
+
 .memberships button {
     width: 269px;
     height: 72px;
@@ -272,14 +276,13 @@ aside {
     margin-top: 10%;
     text-transform: uppercase;
     color: #FFFFFF;
-}       
+}
 
 .universe p {
     margin-top: 2%;
     font-weight: 300;
     font-size: 20px;
     font-size: 28px;
-    line-height: 15px;
     color: #FFFFFF;
     text-align: left;
 }
@@ -314,10 +317,24 @@ form {
     margin-top: 10%;
 }
 
+.input-radio {
+    width: 10%;
+}
+
+.input-text {
+    width: 50%;
+}
+
+label {
+    width: 80%;
+    font-size: 12px;
+    text-align: start;
+}
+
 .select-form {
     display: flex;
     align-items: center;
-    width: 94%;
+    width: 90%;
     font-size: small;
     line-height: 9px;
     color: #373867;
@@ -333,15 +350,13 @@ form {
 }
 
 .placeholders {
-    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
 }
 
-.ph-name, ph-surname {
-    display: flex;
-    flex-direction: row;
-    border-radius: 5px;
-    color: #373867;
-    opacity: 0.5;
+.ph {
+    width: 45%;
 }
 
 .ph-email {
@@ -352,7 +367,7 @@ form {
 }
 
 .ph input {
-    width: 100%;
+    width: 80%;
     margin: 10px;
     padding: 5px;
 }
@@ -375,7 +390,8 @@ textarea {
     font-size: 13px;
 }
 
-@media (min-width: 601px) {
+@media (min-width: 601px) and (max-width: 1024px) {
+    
     .why-us{
         flex-direction: row;
     }
@@ -386,28 +402,105 @@ textarea {
         text-align: left;
         justify-content: center;
     }
-    
+
     .why-us-pic {
         display: flex;
         align-items: flex-end;
     }
+    .activities{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .activities-logo {
+        align-self: flex-start;
+    }
+
+    .activities-pics{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    .activities-crossfit {
+        width: 30%;
+    }
+
+    .activities-spinning {
+        width: 30%;
+    }
+
+    .activities-functional {
+        width: 30%;
+    }
+
+    .activities-boxing{
+        width: 30%;
+    }
+
+    .activities-weightt{
+        width: 30%;
+    }
+
+
 
     .universe {
         display: flex;
         flex-direction: row;
     }
-    
+
     .universe-text {
         display: flex;
         flex-direction: column;
         text-align: left;
         justify-content: center;
     }
-        
+
     .universe img {
         display: flex;
         align-items: flex-end;
     }
+}
 
-    
+@media (min-width: 1025px) {
+
+    .conteiner {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .activities{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .activities-logo {
+        align-self: flex-start;
+    }
+
+    .activities-pics{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .memberships {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .memberships-conteiner {
+        display: flex;
+        flex-direction: row;
+    }
 }
