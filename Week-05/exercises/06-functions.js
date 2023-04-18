@@ -65,7 +65,7 @@ function sumValidate(a, b) {
         b = Math.round(b);
         alert('Parameter 2 has been rounded to ' + b);
     }
-    return x + y;
+    return a + b;
 }
 num1 = 10.5;
 num2 = 5;
