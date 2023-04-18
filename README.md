@@ -30,5 +30,15 @@ We optimize the landing page for a design that works on both mobile devices and 
 We use HTML and CSS.
 Main tool used: flexbox.
 
-## Authors 
+Github pages: https://camila-cambria.github.io/BaSP-M2023/Week-04
+
+## Week 05
+
+We learned about javascript. We solved various exercises starting with basic theory about variables and operators to functions.
+Also, we made some corrections about week 04.
+We use Javascript.
+
+Github pages: https://camila-cambria.github.io/BaSP-M2023/Week-05
+
+## Authors
 -Camila Cambria
