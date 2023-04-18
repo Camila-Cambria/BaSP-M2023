@@ -85,7 +85,7 @@ function roundNumber(a) {
     }
     return a;
 }
-function newSumWithValidation(a, b) {
+function newSumValidate(a, b) {
     if (typeof a !== 'number' || typeof y !== 'number') {
         alert('One of the parameters is not a number');
         return NaN;
@@ -94,5 +94,5 @@ function newSumWithValidation(a, b) {
     b = roundNumber(b);
     return a + b;
 }
-sum = newSumWithValidation(num1, num2);
+sum = newSumValidate(num1, num2);
 console.log('The result is: '+ sum);

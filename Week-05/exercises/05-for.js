@@ -26,9 +26,9 @@ for para ir guardando cada palabra dentro de la variable sentence. Al final most
 
 console.log ('Exercise 5-c');
 var words,sentence;
-sentence = "";
+sentence = ' ';
 for (var i = 0; i < words.length; i++) {
-    sentence += words[i] + " ";
+    sentence += words[i] + ' ';
 }
 alert(sentence);
 
