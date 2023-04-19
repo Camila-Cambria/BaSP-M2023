@@ -398,7 +398,7 @@ textarea {
 
     .why-us-pic {
         display: flex;
-        align-items: flex-end;
+        width: 360px;
     }
 
     .activities{
@@ -451,7 +451,7 @@ textarea {
 
     .universe img {
         display: flex;
-        align-items: flex-end;
+
     }
 }
 
@@ -484,6 +484,21 @@ textarea {
     nav {
         position: fixed;
 
+    }
+    .why-us{
+        flex-direction: row;
+    }
+
+    .why-us-text{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .why-us-pic {
+        display: flex;
+        width: 470px;
     }
 
     .activities{
@@ -526,6 +541,5 @@ textarea {
     .memb-black{
         width: 35%;
     }
-
 
 }
