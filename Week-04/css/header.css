@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 *{
-    width: 100%;
+
     height: auto;
     margin: 0px;
 }
@@ -50,26 +50,26 @@ header {
     margin-top: 31px;
     margin-right: 5%;
 }
-    
+
 .burger {
     width: 16px;
     height: 14px;
 }
 
-@media (min-widht: 601px){
-    
+@media screen and (min-widht: 601px){
+
     .logo-rr {
         height: 85px;
     }
-    
+
     .subtitle {
         font-size: 14px;
-        line-height: 16px;    
+        line-height: 16px;
     }
 }
 
-@media (min-width: 1025px) {
-    
+@media screen and (min-width: 1025px) {
+
     .logo-rr{
         height:115px;
     }

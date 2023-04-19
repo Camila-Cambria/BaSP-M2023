@@ -38,7 +38,7 @@ We learned about javascript. We solved various exercises starting with basic the
 Also, we made some corrections about week 04.
 We use Javascript.
 
-Github pages: https://camila-cambria.github.io/BaSP-M2023/Week-05
+Github pages: https://camila-cambria.github.io/BaSP-M2023/Week-05/index.html
 
 ## Authors
 -Camila Cambria

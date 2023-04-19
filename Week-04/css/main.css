@@ -1,27 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@media (min-width: 390px) {
+@media screen and (min-width: 390px) {
 
 aside {
     display: flex;
     float: left;
     width: 271px;
-    height: 100%;
 }
 
 .menu {
     display: none;
     flex-direction: column;
-    width: 280px;
-    height: 6000px;
-    top: 129;
-    left: 0;
-    margin-left: -8px;
+    width: 20%;
     background-color: #373867;
 }
 
 .menu h3, li {
     color: #FFFFFF;
-    text-transform: uppercase;
 }
 
 .menu h3 {
@@ -136,7 +130,7 @@ aside {
 .activities-crossfit {
     width: 50%;
     height: 270px;
-    background-image: url(/Assets/Images/img04.png);
+    background-image: url(../../Assets/Images/img04.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -144,7 +138,7 @@ aside {
 .activities-spinning {
     width: 50%;
     height: 270px;
-    background-image: url(/Assets/Images/img05.png);
+    background-image: url(../../Assets/Images/img05.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -169,7 +163,7 @@ aside {
 .activities-weightt {
     width: 50%;
     height: 270px;
-    background-image: url(/Assets/Images/img08.png);
+    background-image: url(../../Assets/Images/img08.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -219,6 +213,7 @@ aside {
 }
 
 .memberships li {
+    text-transform: lowercase;
     font-weight:400px;
     font-size: 12px;
     width: auto;
@@ -240,7 +235,7 @@ aside {
 }
 
 .memberships button {
-    width: 269px;
+    width: 100%;
     height: 72px;
     font-weight: 700;
     font-size: 30.596px;
@@ -264,7 +259,6 @@ aside {
     line-height: 7px;
     text-align: left;
     margin-top: 10%;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -390,7 +384,7 @@ textarea {
     font-size: 13px;
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     .why-us{
         flex-direction: row;
     }
@@ -406,6 +400,7 @@ textarea {
         display: flex;
         align-items: flex-end;
     }
+
     .activities{
         display: flex;
         flex-direction: column;
@@ -442,8 +437,6 @@ textarea {
         width: 30%;
     }
 
-
-
     .universe {
         display: flex;
         flex-direction: row;
@@ -462,18 +455,35 @@ textarea {
     }
 }
 
-@media (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
+
+    main {
+    display: flex;
+    flex-direction:row;
+    }
 
     .conteiner {
         display: flex;
+        flex-direction: column;
+        width: 80%;
     }
 
     .burger-menu {
         display: none;
     }
 
+    aside{
+        display: flex;
+        align-items: center;
+
+    }
     .menu {
         display: flex;
+    }
+
+    nav {
+        position: fixed;
+
     }
 
     .activities{
@@ -501,5 +511,21 @@ textarea {
     .memberships-conteiner {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
+
+    .memberships img{
+        width: 100%;
+    }
+    .memb-only{
+        width: 35%;
+    }
+    .memb-classic{
+        width: 35%;
+    }
+    .memb-black{
+        width: 35%;
+    }
+
+
 }
