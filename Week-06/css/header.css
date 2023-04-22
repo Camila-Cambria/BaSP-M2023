@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+
+    height: auto;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    color: #373867;
+    align-items: center;
+    min-width: 390px;
+}
+
+.header-logo {
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.logo-rr {
+    width: 57px;
+    height: 65px;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-top: 22px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-align: center;
+    color: #373867;
+}
+
+.subtitle {
+    font-size: 9px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 11px;
+    color: #373867;
+}
+
+.header-burger {
+    text-align: end;
+    margin-top: 31px;
+    margin-right: 5%;
+}
+
+.burger {
+    width: 16px;
+    height: 14px;
+}
+
+@media screen and (min-widht: 601px){
+
+    .logo-rr {
+        height: 85px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    .logo-rr{
+        height:115px;
+    }
+
+    .burger{
+        display: none;
+    }
+}
+
+
