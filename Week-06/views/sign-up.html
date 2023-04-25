@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Best Gym-SignUp</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/sign-up.css">
+
 </head>
 <body>
     <header>
         <div class="header-title">
+            <div class="header-logo">
+                <img class="logo-rr" src="../../Assets/Images/img01.png" alt="Radium Rocket Logo">
+            </div>
             <h1 class="title">the best gym</h1>
             <p class="subtitle">mega rocket s.a</p>
         </div>
     </header>
     <main>
         <aside class="menu">
-            <div class="header-logo">
-                <img class="logo-rr" src="../../Assets/Images/img01.png" alt="Radium Rocket Logo">
-            </div>
             <nav>
                 <ul>
                     <li><a href="./login.html"><h2>Log-in</h2></a></li>
@@ -27,57 +30,82 @@
             </nav>
         </aside>
         <section class="signUpPage">
-            <h2 class="signUp-title">Create Account</h2>
-                <form class="form"  action="" name="form-info" autocomplete="on">
-                    <div class="placeholders">
-                        <div class="phSign">
-                            <label><p>Name</p></label>
-                            <input class="input-text" type="text" name="name">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Last name</p></label>
-                            <input class="input-text" type="text" name="Last name">
-                        </div>
-                        <div class="phSign">
-                            <label><p>ID Number</p></label>
-                            <input class="input-text" type="text" name="id">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Birth date</p></label>
-                            <input class="input-text" type="date" name="Birth date">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Phone</p></label>
-                            <input class="input-text" type="text" name="phone">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Adress</p></label>
-                            <input class="input-text" type="text" name="adress">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Location</p></label>
-                            <input class="input-text" type="text" name="location">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Postal Code</p></label>
-                            <input class="input-text" type="text" name="postal code">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Email</p></label>
-                            <input class="input-text" type="text" name="email">
-                        </div>
-                        <div class="phSign">
-                            <label><p> Password</p></label>
-                            <input class="input-text" type="password" name="password">
-                        </div>
-                        <div class="phSign">
-                            <label><p>Repeat Password</p></label>
-                            <input class="input-text" type="password" name="repeatpassword">
-                        </div>
+            <h2 class="h2">Sign Up</h2>
+            <form id="form-conteiner" class="form">
+                <div class="form-child">
+                    <label class="form-label" for="">Name</label>
+                    <input id="input-name" class="input-child" type="text" placeholder="Name" name="name">
+                    <span id="name-error" class="error">Solo letras y debe tener más de 3 letras</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">Surname</label>
+                    <input id="input-surname"class="input-child" type="text" placeholder="Surname" name="surname">
+                    <span id="surname-error" class="error">Solo letras y debe tener más de 3 letras</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">ID</label>
+                    <input id="input-id"class="input-child" type="number" placeholder="ID" name="ID">
+                    <span id="ID-error" class="error">Debe tener más de 7 números</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">Date</label>
+                    <input id="input-date"class="input-child" type="date" placeholder="Birth Date" name="date">
+                    <span id="date-error" class="error">Debe ser mayor de edad</span>
+                </div>
+
+
+                <div class="form-child">
+                    <label class="form-label" for="">Phone</label>
+                    <input id="input-phone"class="input-child" type="number" placeholder="Phone" name="phone">
+                    <span id="phone-error" class="error">Debe tener 10 números</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">Address</label>
+                    <input id="input-address"class="input-child" type="text" placeholder="Address" name="address">
+                    <span id="address" class="error">Al menos 5 caracteres con letras, números y un espacio en el medio</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">Locality</label>
+                    <input id="input-locality"class="input-child" type="text" placeholder="Locality" name="locality">
+                    <span id="locality-error" class="error">Texto alfanumérico y debe tener más de 3 letras</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">Postal Code</label>
+                    <input id="input-postalCode" class="input-child" type="number" placeholder="Postal Code" name="postalCode">
+                    <span id="postalCode-error" class="error">Debe tener entre 4 y 5 números</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">Password</label>
+                    <input id="input-password" class="input-child" type="password" placeholder="Password" name="password">
+                    <span id="password-error" class="error">Al menos 8 caracteres, formados por letras y números</span>
+                </div>
+
+                <div class="form-child">
+                    <label class="form-label" for="">Repeat Password</label>
+                    <input id="input-password2" class="input-child" type="password" placeholder="Password" name="password2">
+                    <span id="password2-error" class="error"> Al menos 8 caracteres, formados por letras y números</span>
+                </div>
+
+                <div id="mail" class="form-child">
+                    <label class="form-label" for="">Email</label>
+                    <input id="input-email" class="input-child" type="email" placeholder="Email" name="email">
+                    <span id="email-error" class="error">Debe tener un formato de email válido</span>
+
+                    <div class="submit">
+                        <input id="sign-up" type="submit" value="CREATE">
                     </div>
-                    <input class="submit-bottom" type="submit" value="Sign Up">
-                </form>
+                    <span id="dataSend" class="dataSend"></span>
+                </div>
+            </form>
         </section>
     </main>
+    <script src="../js/sign-up.js"></script>
 </body>
 </html>
