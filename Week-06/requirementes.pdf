@@ -1,45 +1,41 @@
 Login:
 
--Email:
+-Email: Debe tener un formato de email válido.
 
 
-
--Contraseña:
-
+-Contraseña:  Formados por letras y números.
 
 
 Sign Up:
 
--Nombre:
+-Nombre: Solo letras y debe tener más de 3 letras.
 
 
-
--Apellido:
-
+-Apellido: Solo letras y debe tener más de 3 letras.
 
 
--DNI:
+-DNI: Solo números y debe tener más de 7 números.
 
 
-
--Fecha de Nacimiento:
-
+-Fecha de Nacimiento: Con formato dd/mm/aaaa.
 
 
--Teléfono:
+-Teléfono: Solo números y debe tener 10 números.
 
 
-
--Dirección:
-
+-Dirección: Al menos 5 caracteres con letras, números y un espacio en el medio.
 
 
--Localidad:
+-Localidad: Texto alfanumérico y debe tener más de 3 letras.
 
 
-
--Código Postal:
-
+-Código Postal:  Solo números y debe tener entre 4 y 5 números
 
 
--Repetir Contraseña:
+-Email: Debe tener un formato de email válido.
+
+
+-Contraseña:  Formados por letras y números.
+
+
+-Repetir Contraseña: Al menos 8 caracteres, formados por letras y números.

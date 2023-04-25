@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@media screen and (min-width: 390px) {
+aside {
+    display: flex;
+    float: left;
+    width: 271px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #373867;
+}
+
+.menu h2 {
+    color: #FFFFFF;
+}
+
+.sigUpPage {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+.sigUpPage h2 {
+    text-align: center;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 50px;
+    color: #373867;
+  }
+
+.form-conteiner {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+  @media  screen and (min-width: 1024px){
+
+.form-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: start;
+    padding: 7px 14px 7px 14px;
+}
+  }
+
+}
