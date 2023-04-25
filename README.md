@@ -45,7 +45,7 @@ Github pages: https://camila-cambria.github.io/BaSP-M2023/Week-05/index.html
 We learned about DOM. We perform validations in the login and sign-up of our page.
 We use Javascript.
 
-Github pages: https://camila-cambria.github.io/BaSP-M2023/Week-06/index.html
+Github pages: https://camila-cambria.github.io/BaSP-M2023/Week-06
 
 ## Authors
 -Camila Cambria
